@@ -1,0 +1,10 @@
+import turtle
+t=turtle.Turtle()
+t.begin_fill()
+t.fillcolor("green")
+t.penup()
+t.goto(50,50)
+t.pendown()
+t.circle(-80)
+t.end_fill()
+turtle.done()
